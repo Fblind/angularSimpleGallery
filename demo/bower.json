@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "dependencies": {
     "angular": "^1.3.0",
-    "bootstrap": "^3.2.0"
+    "bootstrap": "^3.2.0",
+    "simpleImageGallery": "angular-simple-gallery#*"
   },
   "devDependencies": {
     "angular-mocks": "^1.3.0"
