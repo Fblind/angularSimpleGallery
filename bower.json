@@ -5,7 +5,10 @@
     "Facundo Soria Guerrero fblind@gmail.com"
   ],
   "description": "Simple image gallery for angular",
-  "main": "js/fblindSimpleImageGallery.js",
+  "main": [
+    "js/fblindSimpleImageGallery.js",
+    "css/fblindSimpleImageGallery.css"
+  ],
   "moduleType": [
     "globals"
   ],
