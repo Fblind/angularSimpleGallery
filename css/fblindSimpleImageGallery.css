@@ -1,4 +1,4 @@
-.image{
+#simple-gallery .image{
   position: relative;
   width: 100%;
   padding-bottom: 100%;
@@ -6,12 +6,12 @@
   height: 25em;
 }
 
-.item{
+#simple-gallery .item{
   width:100%;
   height:100%;
 }
 
-.image img{
+#simple-gallery .image img{
   position: absolute;
   top: 0;
   bottom: 0;

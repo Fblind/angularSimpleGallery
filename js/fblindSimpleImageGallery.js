@@ -2,7 +2,7 @@
 angular.module('fblindSimpleImageGallery', [])
   .directive('simpleImageGallery',
   function () {
-    var template =  '<div class="col-sm-12 image">' +
+    var template =  '<div id="simple-gallery" class="col-sm-12 image">' +
                       '<div class="item active">' +
                         '<img ng-src="{{ currentImage || images[0] }}" class="img-responsive">' +
                       '</div>' +
