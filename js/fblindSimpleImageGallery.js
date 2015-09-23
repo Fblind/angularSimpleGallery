@@ -1,5 +1,5 @@
 'use strict';
-angular.module('fblindSimpleImageGallery')
+angular.module('fblindSimpleImageGallery', [])
   .directive('simpleImageGallery',
   function () {
     var template =  '<div class="col-sm-12 image">' +
