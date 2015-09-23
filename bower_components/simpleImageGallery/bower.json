@@ -1,0 +1,32 @@
+{
+  "name": "simpleImageGallery",
+  "version": "0.0.1",
+  "authors": [
+    "Facundo Soria Guerrero fblind@gmail.com"
+  ],
+  "description": "Simple image gallery for angular",
+  "main": [
+    "js/fblindSimpleImageGallery.js",
+    "css/fblindSimpleImageGallery.css"
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "simple",
+    "gallery",
+    "angular",
+    "fblind"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5"
+  }
+}

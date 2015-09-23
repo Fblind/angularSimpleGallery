@@ -1,32 +1,23 @@
 {
-  "name": "simpleImageGallery",
-  "version": "0.0.1",
-  "authors": [
-    "Facundo Soria Guerrero fblind@gmail.com"
-  ],
-  "description": "Simple image gallery for angular",
-  "main": [
-    "js/fblindSimpleImageGallery.js",
-    "css/fblindSimpleImageGallery.css"
-  ],
-  "moduleType": [
-    "globals"
-  ],
-  "keywords": [
-    "simple",
-    "gallery",
-    "angular",
-    "fblind"
-  ],
-  "license": "MIT",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
+  "name": "simple-image-gallery",
+  "version": "0.0.0",
   "dependencies": {
-    "bootstrap": "~3.3.5"
+    "angular": "^1.3.0",
+    "bootstrap": "^3.2.0",
+    "simpleImageGallery": "angular-simple-gallery#*"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.3.0"
+  },
+  "appPath": "app",
+  "moduleName": "simpleImageGalleryApp",
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "less/bootstrap.less",
+        "dist/css/bootstrap.css",
+        "dist/js/bootstrap.js"
+      ]
+    }
   }
 }

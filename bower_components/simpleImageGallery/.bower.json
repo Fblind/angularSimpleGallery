@@ -1,0 +1,41 @@
+{
+  "name": "simpleImageGallery",
+  "authors": [
+    "Facundo Soria Guerrero fblind@gmail.com"
+  ],
+  "description": "Simple image gallery for angular",
+  "main": [
+    "js/fblindSimpleImageGallery.js",
+    "css/fblindSimpleImageGallery.css"
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "simple",
+    "gallery",
+    "angular",
+    "fblind"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5"
+  },
+  "homepage": "https://github.com/Fblind/angularSimpleGallery",
+  "_release": "283a7aaad8",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "283a7aaad843525f81fb7d2fe4209064c2866084"
+  },
+  "_source": "git://github.com/Fblind/angularSimpleGallery.git",
+  "_target": "*",
+  "_originalSource": "angular-simple-gallery"
+}
