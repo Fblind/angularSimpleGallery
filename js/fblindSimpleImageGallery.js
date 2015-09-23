@@ -2,12 +2,7 @@
 angular.module('fblindSimpleImageGallery')
   .directive('simpleImageGallery',
   function () {
-    return {
-      restrict: 'E',
-      scope: {
-        images: '='
-      },
-      template: '<div class="col-sm-12 image">' +
+    var template = '<div class="col-sm-12 image">' +
       '<div class="item active">' +
       '<img ng-src="{{ currentImage || images[0] }}" class="img-responsive">' +
       '</div>' +
@@ -25,7 +20,13 @@ angular.module('fblindSimpleImageGallery')
       '</div>' +
       '</div>' +
       '</div>' +
-      '</div>',
+      '</div>';
+    return {
+      restrict: 'E',
+      scope: {
+        images: '='
+      },
+      template: template,
       controller: function ($scope) {
         $scope.activateImg = function (index) {
           $scope.currentImage = $scope.images[index];
