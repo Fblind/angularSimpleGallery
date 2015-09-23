@@ -1,7 +1,6 @@
 #simple-gallery .image{
   position: relative;
   width: 100%;
-  padding-bottom: 100%;
   margin-bottom:20px;
   height: 25em;
 }
@@ -19,4 +18,23 @@
   right: 0;
   margin: auto;
   max-height: 25em;
+}
+
+#slider-thumbs ul > li {
+  display: inline-block;
+  padding: 0.25em;
+}
+#slider-thumbs ul{
+  padding: 0;
+  margin: 0 auto;
+  display:inline-block;
+}
+
+#slider-thumbs{
+  text-align: center;
+}
+
+.simple-gallery-thumbnail {
+  height: 40px;
+  width: 40px;
 }
