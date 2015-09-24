@@ -28,8 +28,6 @@ $scope.images = [
 Y listo, ya esta para usar!
 
 ##TODOs:
-* Agregar como se usa.
-* Documentacion.
 * Hacerla más customizable.
 * Posibilidad de integrar sliders propios. Ej: slick https://github.com/vasyabigi/angular-slick
 * Traducción.
